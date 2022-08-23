@@ -1,0 +1,62 @@
+.portfolio {
+    height: 400px;
+    width: 100%;
+    padding-top: 10px;
+    display: inline-block;
+    margin: auto;
+}
+
+.Portfoliotitil {
+    margin: auto;
+    padding-top: 10px;
+    color: black;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    font-size: large;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Portfoliocontaner {
+    height: 300px;
+    width: 100%;
+    padding-top: 5px;
+    display: inline-flex;
+    margin: auto;
+    padding-left: 5px;
+}
+
+.Portfolioone {
+    height: 300px;
+    width: 20%;
+    padding-top: 5px;
+    display: inline-flex;
+    margin: auto;
+}
+
+.Portfoliotwo {
+    height: 300px;
+    width: 20%;
+    padding-top: 5px;
+    display: inline-flex;
+    margin: auto;
+}
+
+.Portfoliothree {
+    height: 300px;
+    width: 20%;
+    padding-top: 5px;
+    display: inline-flex;
+    margin: auto;
+}
+
+.Portfoliofour {
+    height: 300px;
+    width: 20%;
+    padding-top: 5px;
+    display: inline-flex;
+    margin: auto;
+}

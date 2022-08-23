@@ -1,0 +1,40 @@
+footer {
+    background-color: black;
+    color: aliceblue;
+    height: 100px;
+    width: 100%;
+    margin: 0%;
+    display: inline-flex;
+}
+
+.footerlift {
+    padding-left: 20px;
+    width: 35%;
+    color: aliceblue;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.footercenter {
+    width: 35%;
+    color: aliceblue;
+}
+
+.footerright {
+    width: 30%;
+    padding-top: 30px;
+    color: aliceblue;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.footerlift:hover {
+    color: crimson;
+}
+
+.footerright:hover {
+    color: crimson;
+}

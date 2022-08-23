@@ -1,0 +1,164 @@
+body {
+    background: url("images/backg.png") no-repeat center center fixed;
+    background-size: cover;
+    display: block;
+    background-color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background: url("images/br.png") no-repeat center center fixed;
+        background-size: cover;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    body {
+        background: url("images/backg.png") no-repeat center center fixed;
+        background-size: cover;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    body {
+        background: url("images/bcp.png") no-repeat center center fixed;
+        background-size: cover;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    body {
+        background: url("images/bcp.png") no-repeat center center fixed;
+        background-size: cover;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    body {
+        background: url("images/bcp.png") no-repeat center center fixed;
+        background-size: cover;
+    }
+}
+
+header {
+    height: 20px;
+    width: 100%;
+    width: 100%;
+}
+
+.nav {
+    display: inline-flex;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+.logo {
+    justify-content: left;
+    justify-items: left;
+    width: 20%;
+    display: inline-flex;
+    justify-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: large;
+    color: azure;
+}
+
+.logo:hover {
+    color: rgb(226, 43, 128);
+}
+
+.logo img {
+    height: 100px;
+    width: 100px;
+    justify-content: left;
+    justify-items: left;
+    width: 50%;
+}
+
+.logo p {
+    height: 100px;
+    width: 100px;
+    justify-content: right;
+    justify-items: right;
+    width: 50%;
+    margin-top: 20%;
+    color: azure;
+    font-size: large;
+}
+
+.linknav {
+    width: 80%;
+    display: inline-flex;
+    justify-content: end;
+    justify-items: end;
+}
+
+.nav .linknav.navbar {
+    display: inline-flex;
+    width: 80%;
+}
+
+.linknav a {
+    color: black;
+    padding: 20px;
+    justify-content: end;
+    justify-items: end;
+    font-size: large;
+    text-decoration: none;
+}
+
+.linknav a:hover {
+    color: azure;
+}
+
+@media only screen and (max-width: 600px) {
+    .nav {
+        display: inline-block;
+        padding: 5px;
+    }
+    .linknav {
+        padding: 20px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .nav {
+        display: inline-block;
+        padding: 5px;
+    }
+    .linknav {
+        padding: 18px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .nav {
+        display: inline-flex;
+        padding: 10px;
+    }
+    .linknav {
+        padding: 16px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .nav {
+        display: inline-flex;
+        padding: 5px;
+    }
+    .linknav {
+        padding: 14px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .nav {
+        display: inline-flex;
+        padding: 5px;
+    }
+    .linknav {
+        padding: 12px;
+    }
+}

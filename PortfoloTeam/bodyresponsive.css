@@ -1,0 +1,36 @@
+@media only screen and (max-width: 600px) {
+    nav {
+        display: inline-block;
+        padding-top: 3px;
+        color: aliceblue;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    nav {
+        display: inline-block;
+        padding-top: 3px;
+        color: aliceblue;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    nav {
+        display: inline-flex;
+        padding: 10px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    nav {
+        display: inline-flex;
+        padding: 10px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    body {
+        display: inline-flex;
+        padding: 10px;
+    }
+}

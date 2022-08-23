@@ -1,0 +1,41 @@
+body {
+    background: url("images/backg.png") no-repeat center center fixed;
+    background-size: cover;
+    display: block;
+    background-color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background: url("images/br.png") no-repeat center center fixed;
+        background-size: cover;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    body {
+        background: url("images/backg.png") no-repeat center center fixed;
+        background-size: cover;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    body {
+        background: url("images/bcp.png") no-repeat center center fixed;
+        background-size: cover;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    body {
+        background: url("images/bcp.png") no-repeat center center fixed;
+        background-size: cover;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    body {
+        background: url("images/bcp.png") no-repeat center center fixed;
+        background-size: cover;
+    }
+}
